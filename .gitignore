@@ -1,0 +1,112 @@
+# various artifacts
+**.war
+*.gem
+*.rbc
+*.sassc
+*.swp
+*~
+.virb*
+*.*~
+*.orig
+log/*.log
+*.log
+tmp/**/*
+tmp/*
+.rspec
+.redcar/
+.config
+.sass-cache
+.zeus.sock
+/public/cache
+/public/stylesheets/compiled
+/public/system/*
+/public/assets/*
+/public/sitemaps
+/spec/tmp/*
+/cache
+/capybara*
+/capybara-*.html
+/gems
+/specifications
+rerun.txt
+pickle-email-*.html
+
+/solr/
+/.gemtags
+/coverage
+/coverage.data
+/InstalledFiles
+/pkg/
+/spec/reports/
+/test/tmp/
+/test/version_tmp/
+
+/log
+/tmp
+/public/system
+/coverage/
+/spec/tmp
+rerun.txt
+pickle-email-*.html
+.bundle
+
+
+
+# Application specific
+*.txt
+/doc
+/public/uploads
+
+
+.DS_Store
+
+# Documentation cache and generated files:
+/.yardoc/
+/_yardoc/
+/rdoc/
+doc/api
+doc/app
+
+# Configuration files
+config/app_config.yml
+config/database.yml
+config/application.yml
+config/mandrill.yml
+config/paperclip.yml
+
+# TODO Comment out this rule if you are OK with secrets being uploaded to the repo
+config/initializers/secret_token.rb
+config/master.key
+
+# Only include if you have production secrets in this file, which is no longer a Rails default
+config/secrets.yml
+
+# dotenv
+# TODO Comment out this rule if environment variables can be committed
+.env
+
+# Environment normalisation:
+/.bundle/
+/vendor/bundle
+/lib/bundler/man/
+/vendor/ruby/
+
+# these should all be checked in to normalize the environment:
+# Gemfile.lock, .ruby-version, .ruby-gemset
+
+# unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
+.rvmrc
+
+# if using bower-rails ignore default bower_components path bower.json files
+/vendor/assets/bower_components
+*.bowerrc
+bower.json
+
+# Ignore pow environment settings
+.powenv
+
+# Ignore Byebug command history file.
+.byebug_history
+
+# Ignore node_modules
+node_modules/
