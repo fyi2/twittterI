@@ -1,3 +1,6 @@
+#git remote add origin git@github.com:fyi2/twittterI.git
+#git push -u origin master
+
 # various artifacts
 **.war
 *.gem
